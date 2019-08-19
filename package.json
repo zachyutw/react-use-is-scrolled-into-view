@@ -1,8 +1,12 @@
 {
     "name": "react-use-is-scrolled-into-view",
     "version": "1.0.1",
-    "description": "Check if virturel dom enters the user's vie",
+    "description": "React hook which Check virturel dom enters the user's view",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:zachyutw/react-use-is-scrolled-into-view.git"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -10,7 +14,7 @@
     "author": "zachyu.tw@gmail.com",
     "license": "MIT",
     "peerDependencies": {
-        "react": "16.8.0",
-        "react-dom": "16.8.0"
+        "react": "~16.8.0",
+        "react-dom": "~16.8.0"
     }
 }
