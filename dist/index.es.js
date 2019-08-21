@@ -1,5 +1,5 @@
-'use strict';
-import {useState, useCallback, useEffect} from 'react';
+import { useState, useCallback, useEffect } from 'react';
+
 const isInViewport = (el, {top: t, height: h} = el.getBoundingClientRect()) =>
   t <= window.innerHeight && t + h >= 0;
 const useIsScrolledIntoView = ref => {
@@ -15,4 +15,6 @@ const useIsScrolledIntoView = ref => {
   }, [ref]);
   return isIntoView;
 };
+
 export default useIsScrolledIntoView;
+//# sourceMappingURL=index.es.js.map
