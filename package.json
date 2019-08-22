@@ -1,10 +1,10 @@
 {
     "name": "react-use-is-scrolled-into-view",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "react hook which check virturel dom enters the user's view",
     "repository": {
         "type": "git",
-        "url": "git@github.com:zachyutw/zach-local-storage-safe.git"
+        "url": "git@github.com:zachyutw/react-use-is-scrolled-into-view.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
         "build": "rollup -c",
         "prepare": "yarn run prettier && yarn run build"
     },
-    "keywords": [ "javascript", "localStorage", "client side" ],
+    "keywords": [ "react-hook", "reactjs", "scoll" ],
     "author": {
         "name": "Zach Yu",
         "email": "zachyu.tw@gmail.com"
@@ -24,6 +24,9 @@
     "engines": {
         "node": ">=8",
         "npm": ">=5"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0"
     },
     "devDependencies": {
         "rollup": "^1.1.2",

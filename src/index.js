@@ -1,2 +1,2 @@
-import localStorageSafe from './localStorageSafe';
-export default localStorageSafe;
+import useIsScrolledIntoView from './useIsScrolledIntoView';
+export default useIsScrolledIntoView;
