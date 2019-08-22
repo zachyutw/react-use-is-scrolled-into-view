@@ -1,13 +1,17 @@
 'use strict';
-import {useState, useCallback, useEffect} from 'react';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var react = require('react');
+
 const isInViewport = (el, {top: t, height: h} = el.getBoundingClientRect()) =>
   t <= window.innerHeight && t + h >= 0;
 const useIsScrolledIntoView = ref => {
-  const [isIntoView, setIsIntoView] = useState(false);
-  const handleOnScroll = useCallback(() => {
+  const [isIntoView, setIsIntoView] = react.useState(false);
+  const handleOnScroll = react.useCallback(() => {
     setIsIntoView(isInViewport(ref.current));
   }, []);
-  useEffect(() => {
+  react.useEffect(() => {
     window.addEventListener('scroll', handleOnScroll);
     return () => {
       window.removeEventListener('scroll', handleOnScroll);
@@ -15,4 +19,6 @@ const useIsScrolledIntoView = ref => {
   }, [ref]);
   return isIntoView;
 };
-export default useIsScrolledIntoView;
+
+exports.default = useIsScrolledIntoView;
+//# sourceMappingURL=index.js.map
