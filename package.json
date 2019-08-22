@@ -1,5 +1,5 @@
 {
-    "name": "@zach/local-storage-safe",
+    "name": "zach-local-storage-safe",
     "version": "1.0.0",
     "description": "power up window localStorage, with obj, array, string support, initialize data type, expire time",
     "repository": {
