@@ -1,7 +1,3 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
 const initTypeData = (data, type) => {
   switch (type) {
     case 'array':
@@ -84,5 +80,4 @@ try {
   console.log(err);
 }
 
-exports.default = localStorageSafe;
-//# sourceMappingURL=index.js.map
+export default localStorageSafe;
