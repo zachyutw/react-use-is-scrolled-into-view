@@ -1,7 +1,7 @@
 {
-    "name": "zach-local-storage-safe",
-    "version": "1.0.0",
-    "description": "power up window localStorage, with obj, array, string support, initialize data type, expire time",
+    "name": "react-use-is-scrolled-into-view",
+    "version": "1.0.2",
+    "description": "react hook which check virturel dom enters the user's view",
     "repository": {
         "type": "git",
         "url": "git@github.com:zachyutw/zach-local-storage-safe.git"
