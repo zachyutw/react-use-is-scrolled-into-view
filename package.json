@@ -1,6 +1,6 @@
 {
     "name": "react-use-is-scrolled-into-view",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "react hook which check virturel dom enters the user's view",
     "repository": {
         "type": "git",
